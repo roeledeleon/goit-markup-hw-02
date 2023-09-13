@@ -1,0 +1,110 @@
+/* Body Medium */
+body {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+/*logo*/
+.logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.studio {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+/*header navigation*/
+.navigation,
+.contacts-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  list-style: none;
+  text-decoration: none;
+}
+.navigation .link {
+  text-decoration: none;
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+.navigation .link:focus,
+.navigation .link:hover {
+  color: var(--NAVY-BLUE, #1d1e30);
+  outline-color: var(--brand-color);
+}
+.navigation .current {
+  color: var(--IRIS, #4d5ae5);
+}
+
+/*header contacts list*/
+.contacts-list a {
+  text-decoration: none;
+  color: var(--SLATE, #434455);
+}
+.contacts-list a:hover,
+.contacts-list a:focus {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+/*Section Main*/
+.section-main {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.section-main-title {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.buttion-section-main-title {
+  display: inline-flex;
+  padding: 2px 4px;
+  align-items: flex-start;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  color: var(--WHITE, #fff);
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+/*Section Features*/
+
+.features-list > li {
+  list-style: none;
+}
+.features-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: left;
+}
+.features-text {
+  font-style: normal;
+  color: var(--SLATE, #434455);
+}

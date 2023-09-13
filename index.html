@@ -5,41 +5,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- webpage title-->
     <title>WEBSTUDIO</title>
   </head>
   <body>
-    <header>
-      <nav class="main-nav">
+    <header class="header-elements">
+      <!-- Navigation -->
+      <nav>
         <!-- site logo -->
-        <a class="main-logo-link" href="#"> WEBSTUDIO</a>
-        <!-- Navigation to other section -->
-        <ul class="main-nav-item-list">
-          <li class="main-nav-item">
-            <a class="main-nav-item-link" href="#">Site</a>
+        <a class="logo" href="./index.html"
+          >Web<span class="logo studio">Studio</span>
+        </a>
+        <ul class="navigation">
+          <li>
+            <a href="./index.html" class="link current">Site</a>
           </li>
-          <li class="main-nav-item">
-            <a class="main-nav-item-link" href="#">Portfolio</a>
+          <li>
+            <a href="./porfolio.html" class="link">Portfolio</a>
           </li>
-          <li class="main-nav-item">
-            <a class="main-nav-item-link" href="#">Contact</a>
+          <li>
+            <a href="#" class="link">Contact</a>
+          </li>
+        </ul>
+        <ul class="contacts-list">
+          <li>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </nav>
-      <ul class="contact-item-list">
-        <li class="contact-item">
-          <a class="contact-item-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="contact-item">
-          <a class="contact-item-link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
     </header>
-    <main class="main-content">
+    <main>
       <!-- Section Main -->
       <section class="section-main">
         <h1 class="section-main-title">
@@ -51,33 +56,33 @@
           Order Service
         </button>
       </section>
-      <!-- Section Skills -->
-      <section class="section-skills">
-        <ul class="skills-item-list">
-          <li class="skills-item">
-            <h3 class="skills-item-title">Strategy</h3>
-            <p class="skills-item-text">
+      <!-- Section Features -->
+      <section class="section-features">
+        <ul class="features-list">
+          <li>
+            <h3 class="features-title">Strategy</h3>
+            <p class="features-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li class="skills-item">
-            <h3 class="skills-item-title">Punctuality</h3>
-            <p class="skills-item-text">
+          <li>
+            <h3 class="features-title">Punctuality</h3>
+            <p class="features-text">
               Bring the key message to the brand's audience for the best price
               within the shotest possible time.
             </p>
           </li>
-          <li class="skills-item">
-            <h3 class="skills-item-title">Diligence</h3>
-            <p class="skills-item-text">
+          <li>
+            <h3 class="features-title">Diligence</h3>
+            <p class="features-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li class="skills-item">
-            <h3 class="skills-item-title">Technologies</h3>
-            <p class="skills-item-text">
+          <li>
+            <h3 class="features-title">Technologies</h3>
+            <p class="features-text">
               Design practice focused on digital expreriences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -167,7 +172,9 @@
     </main>
     <footer class="main-footer">
       <!-- site logo -->
-      <a class="main-logo-link" href="#"> WEBSTUDIO</a>
+      <a class="main-nav-logo-link" href="./index.html">
+        <span class="web-color">Web</span>Studio
+      </a>
       <!-- Section Footer Message -->
       <a class="footer-text">
         Increase the flow of customers <br />
