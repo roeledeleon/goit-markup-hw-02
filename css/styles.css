@@ -1,3 +1,11 @@
+:root {
+  --NAVY-BLUE: #2e2f42;
+  --WHITE: #fff;
+  --CORNFLOWER: #e7e9fc;
+  --IRIS: #4d5ae5;
+  --dark-bg: var(--NAVY-BLUE);
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -11,4 +19,60 @@ body {
   margin-left: 0;
   padding-left: 0;
   list-style: none;
+}
+
+.logo {
+  color: var(--IRIS);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+#studio {
+  color: var(--NAVY-BLUE);
+}
+
+.section-main {
+  background-color: var(--dark-bg);
+  color: var(--WHITE);
+  text-transform: uppercase;
+}
+
+.main-title {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+
+.button-main {
+  background-color: var(--IRIS);
+  color: var(--WHITE);
+}
+
+h2 {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.main-footer {
+  background-color: var(--NAVY-BLUE);
+}
+.section-footer a {
+  color: var(--WHITE);
 }
