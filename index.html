@@ -5,52 +5,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
     <!-- webpage title-->
     <title>WEBSTUDIO</title>
   </head>
   <body>
     <header class="header-elements">
       <!-- Navigation -->
-      <nav>
+      <nav class="navigation">
         <!-- site logo -->
-        <a class="logo" href="./index.html"
+        <a class="logo" href="/index.html"
           >Web<span class="logo studio">Studio</span>
         </a>
-        <ul class="navigation">
+        <ul class="navigation-list">
           <li>
-            <a href="./index.html" class="link current">Site</a>
+            <a href="/index.html" class="link current">Site</a>
           </li>
           <li>
-            <a href="./porfolio.html" class="link">Portfolio</a>
+            <a href="/porfolio.html" class="link">Portfolio</a>
           </li>
           <li>
             <a href="#" class="link">Contact</a>
           </li>
         </ul>
-        <ul class="contacts-list">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
       </nav>
+      <!-- Contact List-->
+      <ul class="contact-list">
+        <li>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
+      </ul>
     </header>
     <main>
       <!-- Section Main -->
       <section class="section-main">
-        <h1 class="section-main-title">
-          <a class="section-main-text">
-            Effective Solutions <br />for Your Business
-          </a>
+        <h1 class="main-title">
+          <a class="main-text"> Effective Solutions <br />for Your Business </a>
         </h1>
         <button class="buttion-section-main-title" type="button">
           Order Service
@@ -91,8 +92,8 @@
       </section>
       <!-- Section Gallery -->
       <section class="section-gallery">
-        <h2 class="section-gallery-title">What are We Doing</h2>
-        <ul class="gallery-item-list">
+        <h2 class="gallery-title">What are We Doing</h2>
+        <ul class="gallery-list">
           <li class="gallery-item">
             <img
               class="gallery-image"
@@ -124,8 +125,8 @@
       </section>
       <!-- Section Team -->
       <section class="section-team">
-        <h2 class="section-team-title">Our Team</h2>
-        <ul class="team-item-list">
+        <h2 class="team-title">Our Team</h2>
+        <ul class="team-list">
           <li class="team-item">
             <img
               class="team-image"
@@ -176,11 +177,13 @@
         <span class="web-color">Web</span>Studio
       </a>
       <!-- Section Footer Message -->
-      <a class="footer-text">
-        Increase the flow of customers <br />
-        sales of you business with digital <br />
-        marketing & growth solutions.
-      </a>
+      <section class="section-footer">
+        <a class="footer-text">
+          Increase the flow of customers <br />
+          sales of you business with digital <br />
+          marketing & growth solutions.
+        </a>
+      </section>
     </footer>
   </body>
 </html>
