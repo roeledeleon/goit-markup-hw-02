@@ -100,7 +100,7 @@ p {
   letter-spacing: 1.12px;
 }
 
-.btn {
+.button-main {
   background-color: var(--accent-bg);
   color: var(--secondary-text-color);
 
