@@ -46,13 +46,18 @@ body {
 .nav-list a.link {
   color: var(--primary-text-color);
 }
-
 .nav-list a.item {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+}
+.nav-list a.item:hover,
+.nav-list a.item:focus,
+.nav-list a.contact:hover,
+.nav-list a.contact:focus {
+  color: var(--accent-text-color);
 }
 
 .logo,
